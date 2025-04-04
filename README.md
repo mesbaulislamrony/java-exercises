@@ -1,163 +1,165 @@
-# Java Programming - পূর্ণাঙ্গ কোর্স মডিউল (১-১২)
+# Java Programming - Full Course Module (1-12)
 
-এই কোর্সটি Java প্রোগ্রামিং শেখার জন্য একটি পূর্ণাঙ্গ গাইডলাইন হিসেবে তৈরি করা হয়েছে। এতে মোট ১২টি মডিউল রয়েছে, যা আপনাকে Java প্রোগ্রামিংয়ের মৌলিক ধারণা থেকে শুরু করে উন্নত বিষয়গুলি শেখাবে।
-
-## মডিউল ১: Java এর ভূমিকা ও প্রস্তুতি
-
-### থিওরি
-- Java কী এবং কেন এটি ব্যবহার করা হয়।
-- Java এর ইতিহাস ও ব্যবহার ক্ষেত্র।
-- JDK, JRE, JVM এর পার্থক্য।
-- Java ইনস্টলেশন ও IDE সেটআপ।
-- প্রথম Java প্রোগ্রাম লেখা ও রান করা।
-
-### প্র্যাকটিস
-1. প্রথম Java প্রোগ্রাম লিখুন যা "Hello, World!" প্রিন্ট করে।
-2. আপনার নাম প্রিন্ট করা একটি প্রোগ্রাম লিখুন।
+This course serves as a comprehensive guide to learning Java programming. It contains 12 modules that will teach you everything from basic concepts of Java to advanced topics.
 
 ---
 
-## মডিউল ২: মৌলিক সিনট্যাক্স (Basic Syntax)
+## 1. Module 1: Introduction to Java and Setup
 
-### থিওরি
-- ভ্যারিয়েবল ও ডেটা টাইপ।
-- টাইপ কাস্টিং: Implicit এবং Explicit।
-- অপারেটর: গাণিতিক, সম্পর্কমূলক ও লজিক্যাল অপারেটর।
-- ইনপুট/আউটপুট: `Scanner` ব্যবহার করে ইনপুট নেওয়া এবং `System.out.println()` দিয়ে আউটপুট।
-- মন্তব্য: Single-line এবং Multi-line কমেন্ট।
+### 1.1 Theory
+1. What is Java and why it is used?
+2. History and evolution of Java.
+3. Difference between JDK, JRE, and JVM.
+4. Setting up Java: Installation of JDK and IDE (Eclipse, IntelliJ, NetBeans).
+5. Writing and running your first Java program.
 
-### প্র্যাকটিস
-1. দুটি সংখ্যা ইনপুট নিয়ে তাদের যোগফল, বিয়োগফল, গুণফল ও ভাগফল দেখাও।
-2. ইউজারের নাম ও বয়স ইনপুট নিয়ে একটি শুভেচ্ছা মেসেজ প্রিন্ট করো।
-
----
-
-## মডিউল ৩: কন্ট্রোল স্টেটমেন্ট
-
-### থিওরি
-- সিদ্ধান্ত গ্রহণ: `if`, `else`, `else-if`, `switch`।
-- লুপিং: `for`, `while`, `do-while` লুপ।
-- লুপ নিয়ন্ত্রণ: `break`, `continue`।
-
-### প্র্যাকটিস
-1. ১০০ পর্যন্ত সংখ্যাগুলি চেক করে, যেগুলি ৩ দিয়ে বিভাজ্য, সেগুলি প্রিন্ট করুন।
-2. একটি `switch` স্টেটমেন্ট ব্যবহার করে সপ্তাহের দিন চেক করুন।
+### 1.2 Practice
+1. Write a Java program to print "Hello, World!".
+2. Write a program to print your name.
 
 ---
 
-## মডিউল ৪: অ্যারে ও স্ট্রিং
+## 2. Module 2: Basic Syntax
 
-### থিওরি
-- ১ডি ও ২ডি অ্যারে ডিক্লেয়ার ও ইনিশিয়ালাইজ করা।
-- String ক্লাস ও মেথডস।
-- StringBuilder ও StringBuffer এর ব্যবহার।
+### 2.1 Theory
+1. Variables and Data Types: Primitive vs. Reference Data Types.
+2. Type Casting: Implicit and Explicit Casting.
+3. Operators: Arithmetic, Relational, Logical, Assignment, and Bitwise Operators.
+4. Input and Output: Using `Scanner` for user input and `System.out.println()` for output.
+5. Comments: Single-line and Multi-line comments in Java.
 
-### প্র্যাকটিস
-1. একটি অ্যারে তৈরি করে সেটি প্রিন্ট করুন।
-2. একটি String এর মধ্যে সাবস্ট্রিং বের করুন।
-
----
-
-## মডিউল ৫: মেথড ও ফাংশন
-
-### থিওরি
-- মেথড ডিক্লেয়ারেশন ও প্যারামিটার পাসিং।
-- মেথড ওভারলোডিং।
-- রিকার্সন।
-
-### প্র্যাকটিস
-1. একটি মেথড তৈরি করুন যা দুটি সংখ্যার যোগফল রিটার্ন করবে।
-2. একটি রিকার্সিভ মেথড তৈরি করুন যা ফ্যাক্টোরিয়াল বের করবে।
+### 2.2 Practice
+1. Create a program that accepts two numbers as input and displays the sum, difference, product, and division result.
+2. Write a program to accept the user's name and age, and print a greeting message.
 
 ---
 
-## মডিউল ৬: ক্লাস ও অবজেক্ট (OOP Basics)
+## 3. Module 3: Control Statements
 
-### থিওরি
-- ক্লাস ও অবজেক্ট এর ধারণা।
-- কনস্ট্রাক্টর: ডিফল্ট ও প্যারামিটারাইজড।
-- `this` কীওয়ার্ড।
+### 3.1 Theory
+1. Decision Making: `if`, `else`, `else-if`, `switch` statements.
+2. Loops: `for`, `while`, `do-while` loops.
+3. Loop Control: `break`, `continue`.
 
-### প্র্যাকটিস
-1. একটি ক্লাস তৈরি করুন যা দুটি ভ্যারিয়েবল নেবে এবং তাদের যোগফল প্রিন্ট করবে।
-2. ক্লাসে কনস্ট্রাক্টর ব্যবহার করে একটি অবজেক্ট তৈরি করুন।
-
----
-
-## মডিউল ৭: অবজেক্ট ওরিয়েন্টেড কনসেপ্ট
-
-### থিওরি
-- Inheritance: Superclass ও Subclass।
-- Polymorphism: মেথড ওভাররাইডিং।
-- Abstraction ও Interface।
-- Encapsulation: Getter/Setter।
-
-### প্র্যাকটিস
-1. একটি ক্লাস তৈরি করুন যেটি ইনহেরিট করে এবং মেথড ওভাররাইড করে।
-2. একটি ইন্টারফেস তৈরি করুন এবং তাকে ইমপ্লিমেন্ট করুন।
+### 3.2 Practice
+1. Write a program to print all numbers divisible by 3 up to 100.
+2. Use a `switch` statement to print the day of the week based on the number (1 for Sunday, 2 for Monday, etc.).
 
 ---
 
-## মডিউল ৮: Exception Handling
+## 4. Module 4: Arrays and Strings
 
-### থিওরি
-- Exception কী ও কেন আসে।
-- `try-catch` ব্লক।
-- Custom Exception তৈরি।
-- `throw` ও `throws`।
+### 4.1 Theory
+1. Declaring and Initializing Arrays (1D and 2D arrays).
+2. String class and its methods.
+3. Differences between String, StringBuilder, and StringBuffer in Java.
 
-### প্র্যাকটিস
-1. একটি প্রোগ্রাম তৈরি করুন যাতে division এর সময় ArithmeticException ধরা হয়।
-2. একটি কাস্টম এক্সসেপশন তৈরি করুন যা মান চেক করবে।
-
----
-
-## মডিউল ৯: File Handling
-
-### থিওরি
-- File I/O: `FileWriter`, `BufferedWriter`, `FileReader`।
-- ফাইল চেক করা।
-
-### প্র্যাকটিস
-1. একটি ফাইল তৈরি করে তাতে কিছু লেখা এবং পড়ার প্রোগ্রাম তৈরি করুন।
-2. একটি ফাইল থেকে ডেটা পড়ুন এবং প্রিন্ট করুন।
+### 4.2 Practice
+1. Create a program to declare an array of integers and print the elements.
+2. Extract a substring from a given String.
 
 ---
 
-## মডিউল ১০: Collection Framework
+## 5. Module 5: Methods and Functions
 
-### থিওরি
-- List (ArrayList, LinkedList)
-- Set (HashSet, TreeSet)
-- Map (HashMap, TreeMap)
+### 5.1 Theory
+1. Declaring Methods and Passing Parameters.
+2. Method Overloading: Multiple methods with the same name but different parameters.
+3. Recursion: A method calling itself.
 
-### প্র্যাকটিস
-1. একটি List ব্যবহার করে কিছু ভ্যালু যোগ করুন এবং প্রিন্ট করুন।
-2. একটি Set ব্যবহার করে ডুপ্লিকেট ভ্যালু প্রিন্ট না করে একটি সেটে ডেটা অ্যাড করুন।
-
----
-
-## মডিউল ১১: GUI (Graphical User Interface)
-
-### থিওরি
-- Java Swing: JFrame, JButton, JLabel, JTextField।
-- Layout Managers: FlowLayout, BorderLayout।
-
-### প্র্যাকটিস
-1. একটি JFrame তৈরি করে একটি বাটন যোগ করুন।
-2. একটি JTextField দিয়ে ইউজারের ইনপুট নিন।
+### 5.2 Practice
+1. Write a method that returns the sum of two numbers.
+2. Implement a recursive method to calculate the factorial of a number.
 
 ---
 
-## মডিউল ১২: প্রজেক্ট ও বাস্তব প্রয়োগ
+## 6. Module 6: Classes and Objects (OOP Basics)
 
-### থিওরি
-- একটি ছোট প্রজেক্ট তৈরির গাইডলাইন।
-- প্রজেক্ট আইডিয়া: কনসোল ভিত্তিক ব্যাংক ম্যানেজমেন্ট, স্টুডেন্ট ম্যানেজমেন্ট।
-- GitHub এ প্রজেক্ট আপলোড করা।
+### 6.1 Theory
+1. The concept of Classes and Objects.
+2. Constructors: Default and Parameterized constructors.
+3. The `this` keyword in Java.
 
-### প্র্যাকটিস
-1. একটি ব্যাংক ম্যানেজমেন্ট সিস্টেম তৈরি করুন।
-2. একটি স্টুডেন্ট ম্যানেজমেন্ট সিস্টেম তৈরি করুন।
+### 6.2 Practice
+1. Create a class with two variables and a method to print their sum.
+2. Use constructors to initialize objects and print their attributes.
+
+---
+
+## 7. Module 7: Object-Oriented Programming Concepts
+
+### 7.1 Theory
+1. Inheritance: Superclass and Subclass.
+2. Polymorphism: Method Overriding.
+3. Abstraction: Abstract classes and Interfaces.
+4. Encapsulation: Using Getter and Setter methods.
+
+### 7.2 Practice
+1. Create a class that inherits from another class and overrides a method.
+2. Create an interface and implement it in a class.
+
+---
+
+## 8. Module 8: Exception Handling
+
+### 8.1 Theory
+1. What is an Exception, and why do exceptions occur?
+2. `try-catch` block for handling exceptions.
+3. Creating custom exceptions in Java.
+4. The `throw` and `throws` keywords.
+
+### 8.2 Practice
+1. Create a program that handles an `ArithmeticException` while dividing by zero.
+2. Create a custom exception to check for invalid input.
+
+---
+
+## 9. Module 9: File Handling
+
+### 9.1 Theory
+1. File Input/Output: `FileWriter`, `BufferedWriter`, `FileReader`.
+2. File Checking and Handling.
+
+### 9.2 Practice
+1. Create a program that writes text to a file and then reads from it.
+2. Write a program to check if a file exists and print its content.
+
+---
+
+## 10. Module 10: Collection Framework
+
+### 10.1 Theory
+1. Lists: `ArrayList`, `LinkedList` (Features, operations).
+2. Sets: `HashSet`, `TreeSet` (No duplicates, sorting).
+3. Maps: `HashMap`, `TreeMap` (Key-value pairs, access elements).
+
+### 10.2 Practice
+1. Create an `ArrayList`, add elements to it, and print them.
+2. Create a `HashSet`, add elements to it, and print them without duplicates.
+
+---
+
+## 11. Module 11: GUI (Graphical User Interface)
+
+### 11.1 Theory
+1. Introduction to Java Swing: `JFrame`, `JButton`, `JLabel`, `JTextField`.
+2. Layout Managers: `FlowLayout`, `BorderLayout`.
+
+### 11.2 Practice
+1. Create a `JFrame` and add a `JButton` to it.
+2. Use a `JTextField` to accept input from the user and display it.
+
+---
+
+## 12. Module 12: Project and Real-World Applications
+
+### 12.1 Theory
+1. Guidelines for creating a small Java project.
+2. Project Ideas: Console-based Banking System, Student Management System.
+3. Uploading projects to GitHub for version control.
+
+### 12.2 Practice
+1. Create a Banking Management System.
+2. Create a Student Management System with features like adding, updating, and deleting student records.
 
 ---
