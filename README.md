@@ -4,33 +4,39 @@ This course serves as a comprehensive guide to learning Java programming. It con
 
 ---
 
-## 1. Module 1: Introduction to Java and Setup
+## 1. Introduction to Java and Setup
 
-### 1.1 Theory
-1. What is Java and why it is used?
-2. History and evolution of Java.
-3. Difference between JDK, JRE, and JVM.
-4. Setting up Java: Installation of JDK and IDE (Eclipse, IntelliJ, NetBeans).
-5. Writing and running your first Java program.
+### Theory
+- What is Java and why it is used?
+- History and evolution of Java.
+- Difference between JDK, JRE, and JVM.
+- Setting up Java: Installation of JDK and IDE (Eclipse, IntelliJ, NetBeans).
+- Writing and running your first Java program.
 
-### 1.2 Practice
-1. Write a Java program to print "Hello, World!".
-2. Write a program to print your name.
+### Practice
+- Write a Java program to print "Hello, World!".
+- Write a program to print your name.
+
+### Questions
 
 ---
 
-## 2. Module 2: Basic Syntax
+## 2. Basic Syntax
 
-### 2.1 Theory
-1. Variables and Data Types: Primitive vs. Reference Data Types.
-2. Type Casting: Implicit and Explicit Casting.
-3. Operators: Arithmetic, Relational, Logical, Assignment, and Bitwise Operators.
-4. Input and Output: Using `Scanner` for user input and `System.out.println()` for output.
-5. Comments: Single-line and Multi-line comments in Java.
+### Theory
+- Variables and Data Types: Primitive vs. Reference Data Types.
+    - Primitive Data Types includes `byte, short, int, long, float, double, boolean and char`
+    - Non-primitive data types - such as `String, Arrays and Classes`, non-primitive data types are known as reference types
+- Type Casting: Implicit and Explicit Casting.
+- Operators: Arithmetic, Relational, Logical, Assignment, and Bitwise Operators.
+- Input and Output: Using `Scanner` for user input and `System.out.println()` for output.
+- Comments: Single-line and Multi-line comments in Java.
 
-### 2.2 Practice
-1. Create a program that accepts two numbers as input and displays the sum, difference, product, and division result.
-2. Write a program to accept the user's name and age, and print a greeting message.
+### Practice
+- Create a program that accepts two numbers as input and displays the sum, difference, product, and division result.
+- Write a program to accept the user's name and age, and print a greeting message.
+
+### Questions
 
 ---
 
