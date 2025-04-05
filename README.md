@@ -28,7 +28,12 @@ This course serves as a comprehensive guide to learning Java programming. It con
     - Primitive Data Types includes `byte, short, int, long, float, double, boolean and char`
     - Non-primitive data types - such as `String, Arrays and Classes`, non-primitive data types are known as reference types
 - Type Casting: Implicit and Explicit Casting.
+	- Widening Casting (automatically) - converting a smaller type to a larger type size byte -> short -> char -> int -> long -> float -> double
+	- Narrowing Casting (manually) - converting a larger type to a smaller size type double -> float -> long -> int -> char -> short -> byte
 - Operators: Arithmetic, Relational, Logical, Assignment, and Bitwise Operators.
+	- Arithmetic operators are `Addition (x + y)`,`Subtraction (x - y)`,`Multiplication (x * y)`, `Division (x / y)`, `Modulus (x % y)`, `Increment (++x)`, `Decrement (--x)`
+	- Assignment operators are `Equal to (x == y)`, `Not equal (x != y)`, `Greater than (x > y)`, `Less than (x < y)`, `Greater than or equal to (x >= y)`, `Less than or equal to (x <= y)`
+	- Logical operators are `Logical and (x < 5 &&  x < 10) returns true if both statements are true`, `Logical or (x < 5 || x < 4) returns true if one of the statements is true`, `Logical not !(x < 5 && x < 10) reverse the result, returns false if the result is true`
 - Input and Output: Using `Scanner` for user input and `System.out.println()` for output.
 - Comments: Single-line and Multi-line comments in Java.
 
@@ -40,132 +45,152 @@ This course serves as a comprehensive guide to learning Java programming. It con
 
 ---
 
-## 3. Module 3: Control Statements
+## 3. Control Statements
 
-### 3.1 Theory
-1. Decision Making: `if`, `else`, `else-if`, `switch` statements.
-2. Loops: `for`, `while`, `do-while` loops.
-3. Loop Control: `break`, `continue`.
+### Theory
+- Decision Making: `if`, `else`, `else-if`, `switch` statements.
+- Loops: `for`, `while`, `do-while` loops.
+- Loop Control: `break`, `continue`.
 
-### 3.2 Practice
-1. Write a program to print all numbers divisible by 3 up to 100.
-2. Use a `switch` statement to print the day of the week based on the number (1 for Sunday, 2 for Monday, etc.).
+### Practice
+- Write a program to print all numbers divisible by 3 up to 100.
+- Use a `switch` statement to print the day of the week based on the number (1 for Sunday, 2 for Monday, etc.).
 
----
-
-## 4. Module 4: Arrays and Strings
-
-### 4.1 Theory
-1. Declaring and Initializing Arrays (1D and 2D arrays).
-2. String class and its methods.
-3. Differences between String, StringBuilder, and StringBuffer in Java.
-
-### 4.2 Practice
-1. Create a program to declare an array of integers and print the elements.
-2. Extract a substring from a given String.
+### Questions
 
 ---
 
-## 5. Module 5: Methods and Functions
+## 4. Arrays and Strings
 
-### 5.1 Theory
-1. Declaring Methods and Passing Parameters.
-2. Method Overloading: Multiple methods with the same name but different parameters.
-3. Recursion: A method calling itself.
+### Theory
+- Declaring and Initializing Arrays (1D and 2D arrays).
+- String class and its methods.
+- Differences between String, StringBuilder, and StringBuffer in Java.
 
-### 5.2 Practice
-1. Write a method that returns the sum of two numbers.
-2. Implement a recursive method to calculate the factorial of a number.
+### Practice
+- Create a program to declare an array of integers and print the elements.
+- Extract a substring from a given String.
 
----
-
-## 6. Module 6: Classes and Objects (OOP Basics)
-
-### 6.1 Theory
-1. The concept of Classes and Objects.
-2. Constructors: Default and Parameterized constructors.
-3. The `this` keyword in Java.
-
-### 6.2 Practice
-1. Create a class with two variables and a method to print their sum.
-2. Use constructors to initialize objects and print their attributes.
+### Questions
 
 ---
 
-## 7. Module 7: Object-Oriented Programming Concepts
+## 5. Methods and Functions
 
-### 7.1 Theory
-1. Inheritance: Superclass and Subclass.
-2. Polymorphism: Method Overriding.
-3. Abstraction: Abstract classes and Interfaces.
-4. Encapsulation: Using Getter and Setter methods.
+### Theory
+- Declaring Methods and Passing Parameters.
+- Method Overloading: Multiple methods with the same name but different parameters.
+- Recursion: A method calling itself.
 
-### 7.2 Practice
-1. Create a class that inherits from another class and overrides a method.
-2. Create an interface and implement it in a class.
+### Practice
+- Write a method that returns the sum of two numbers.
+- Implement a recursive method to calculate the factorial of a number.
 
----
-
-## 8. Module 8: Exception Handling
-
-### 8.1 Theory
-1. What is an Exception, and why do exceptions occur?
-2. `try-catch` block for handling exceptions.
-3. Creating custom exceptions in Java.
-4. The `throw` and `throws` keywords.
-
-### 8.2 Practice
-1. Create a program that handles an `ArithmeticException` while dividing by zero.
-2. Create a custom exception to check for invalid input.
+### Questions
 
 ---
 
-## 9. Module 9: File Handling
+## 6. Classes and Objects (OOP Basics)
 
-### 9.1 Theory
-1. File Input/Output: `FileWriter`, `BufferedWriter`, `FileReader`.
-2. File Checking and Handling.
+### Theory
+- The concept of Classes and Objects.
+- Constructors: Default and Parameterized constructors.
+- The `this` keyword in Java.
 
-### 9.2 Practice
-1. Create a program that writes text to a file and then reads from it.
-2. Write a program to check if a file exists and print its content.
+### Practice
+- Create a class with two variables and a method to print their sum.
+- Use constructors to initialize objects and print their attributes.
 
----
-
-## 10. Module 10: Collection Framework
-
-### 10.1 Theory
-1. Lists: `ArrayList`, `LinkedList` (Features, operations).
-2. Sets: `HashSet`, `TreeSet` (No duplicates, sorting).
-3. Maps: `HashMap`, `TreeMap` (Key-value pairs, access elements).
-
-### 10.2 Practice
-1. Create an `ArrayList`, add elements to it, and print them.
-2. Create a `HashSet`, add elements to it, and print them without duplicates.
+### Questions
 
 ---
 
-## 11. Module 11: GUI (Graphical User Interface)
+## 7. Object-Oriented Programming Concepts
 
-### 11.1 Theory
-1. Introduction to Java Swing: `JFrame`, `JButton`, `JLabel`, `JTextField`.
-2. Layout Managers: `FlowLayout`, `BorderLayout`.
+### Theory
+- Inheritance: Superclass and Subclass.
+- Polymorphism: Method Overriding.
+- Abstraction: Abstract classes and Interfaces.
+- Encapsulation: Using Getter and Setter methods.
 
-### 11.2 Practice
-1. Create a `JFrame` and add a `JButton` to it.
-2. Use a `JTextField` to accept input from the user and display it.
+### Practice
+- Create a class that inherits from another class and overrides a method.
+- Create an interface and implement it in a class.
+
+### Questions
 
 ---
 
-## 12. Module 12: Project and Real-World Applications
+## 8. Exception Handling
 
-### 12.1 Theory
-1. Guidelines for creating a small Java project.
-2. Project Ideas: Console-based Banking System, Student Management System.
-3. Uploading projects to GitHub for version control.
+### Theory
+- What is an Exception, and why do exceptions occur?
+- `try-catch` block for handling exceptions.
+- Creating custom exceptions in Java.
+- The `throw` and `throws` keywords.
 
-### 12.2 Practice
-1. Create a Banking Management System.
-2. Create a Student Management System with features like adding, updating, and deleting student records.
+### Practice
+- Create a program that handles an `ArithmeticException` while dividing by zero.
+- Create a custom exception to check for invalid input.
+
+### Questions
+
+---
+
+## 9. File Handling
+
+### Theory
+- File Input/Output: `FileWriter`, `BufferedWriter`, `FileReader`.
+- File Checking and Handling.
+
+### Practice
+- Create a program that writes text to a file and then reads from it.
+- Write a program to check if a file exists and print its content.
+
+### Questions
+
+---
+
+## 10. Collection Framework
+
+### Theory
+- Lists: `ArrayList`, `LinkedList` (Features, operations).
+- Sets: `HashSet`, `TreeSet` (No duplicates, sorting).
+- Maps: `HashMap`, `TreeMap` (Key-value pairs, access elements).
+
+### Practice
+- Create an `ArrayList`, add elements to it, and print them.
+- Create a `HashSet`, add elements to it, and print them without duplicates.
+
+### Questions
+
+---
+
+## 11. GUI (Graphical User Interface)
+
+### Theory
+- Introduction to Java Swing: `JFrame`, `JButton`, `JLabel`, `JTextField`.
+- Layout Managers: `FlowLayout`, `BorderLayout`.
+
+### Practice
+- Create a `JFrame` and add a `JButton` to it.
+- Use a `JTextField` to accept input from the user and display it.
+
+### Questions
+
+---
+
+## 12. Project and Real-World Applications
+
+### Theory
+- Guidelines for creating a small Java project.
+- Project Ideas: Console-based Banking System, Student Management System.
+- Uploading projects to GitHub for version control.
+
+### Practice
+- Create a Banking Management System.
+- Create a Student Management System with features like adding, updating, and deleting student records.
+
+### Questions
 
 ---
