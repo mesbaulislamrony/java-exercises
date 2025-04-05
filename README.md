@@ -1,10 +1,10 @@
-# Java Programming - Full Course Module (1-12)
+# Java Programming - Full Course Modules
 
-This course serves as a comprehensive guide to learning Java programming. It contains 12 modules that will teach you everything from basic concepts of Java to advanced topics.
+This course serves as a comprehensive guide to learning Java programming. It contains some modules that will teach you everything from basic concepts of Java to advanced topics.
 
 ---
 
-## 1. Introduction to Java and Setup
+## Introduction to Java and Setup
 
 ### Theory
 
@@ -23,7 +23,7 @@ This course serves as a comprehensive guide to learning Java programming. It con
 
 ---
 
-## 2. Basic Syntax
+## Basic Syntax
 
 ### Theory
 
@@ -47,7 +47,7 @@ This course serves as a comprehensive guide to learning Java programming. It con
 
 ---
 
-## 3. Control Statements
+## Control Statements
 
 ### Theory
 
@@ -66,7 +66,7 @@ This course serves as a comprehensive guide to learning Java programming. It con
 
 ---
 
-## 4. Arrays and Strings
+## Arrays and Strings
 
 ### Theory
 
@@ -90,7 +90,7 @@ This course serves as a comprehensive guide to learning Java programming. It con
 
 ---
 
-## 5. Methods and Functions
+## Methods and Functions
 
 ### Theory
 
@@ -108,7 +108,7 @@ This course serves as a comprehensive guide to learning Java programming. It con
 
 ---
 
-## 6. Classes and Objects (OOP Basics)
+## Classes and Objects (OOP Basics)
 
 ### Theory
 
@@ -138,7 +138,7 @@ This course serves as a comprehensive guide to learning Java programming. It con
 
 ---
 
-## 7. Object-Oriented Programming Concepts
+## Object-Oriented Programming Concepts
 
 ### Theory
 
@@ -165,7 +165,7 @@ This course serves as a comprehensive guide to learning Java programming. It con
 
 ---
 
-## 8. Exception Handling
+## Exception Handling
 
 ### Theory
 
@@ -190,7 +190,7 @@ This course serves as a comprehensive guide to learning Java programming. It con
 
 ---
 
-## 9. File Handling
+## File Handling
 
 ### Theory
 
@@ -207,7 +207,7 @@ This course serves as a comprehensive guide to learning Java programming. It con
 
 ---
 
-## 10. Data Structures
+## Data Structures
 
 ### Theory
 
@@ -230,7 +230,7 @@ This course serves as a comprehensive guide to learning Java programming. It con
 
 ---
 
-## 11. Additional Topics
+## Additional Topics
 
 ### Theory
 
@@ -251,7 +251,7 @@ This course serves as a comprehensive guide to learning Java programming. It con
 
 ### Questions
 
-## 12. GUI (Graphical User Interface)
+## GUI (Graphical User Interface)
 
 ### Theory
 
@@ -267,7 +267,7 @@ This course serves as a comprehensive guide to learning Java programming. It con
 
 ---
 
-## 13. Project and Real-World Applications
+## Project and Real-World Applications
 
 ### Theory
 
