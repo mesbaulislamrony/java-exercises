@@ -219,6 +219,7 @@ This course serves as a comprehensive guide to learning Java programming. It con
   - Queue Interface: `ArrayDeque`, `LinkedList`, `PriorityQueue`, `Deque`, `BlockingQueue`, `BlockingDeque`
 - Java Map Interface: `HashMap`, `TreeMap`, `EnumMap`, `LinkedHashMap`, `WeakHashMap`, `SortedMap`, `NavigableMap`, `ConcurrentMap`
 - Java Iterator Interface
+- Java Wrapper Classes
 
 ### Practice
 
@@ -229,7 +230,28 @@ This course serves as a comprehensive guide to learning Java programming. It con
 
 ---
 
-## 11. GUI (Graphical User Interface)
+## 11. Additional Topics
+
+### Theory
+
+- Java Threads
+- Java Operator Precedence
+- Java autoboxing and unboxing
+- Java Lambda Expressions
+- Java Regular Expressions
+- Java Date and Time
+- Java Packages & API
+- Java Generics
+  - Generics Class
+  - Generics Method
+  - Bounded Types
+- Java Command-Line Arguments
+
+### Practice
+
+### Questions
+
+## 12. GUI (Graphical User Interface)
 
 ### Theory
 
@@ -245,7 +267,7 @@ This course serves as a comprehensive guide to learning Java programming. It con
 
 ---
 
-## 12. Project and Real-World Applications
+## 13. Project and Real-World Applications
 
 ### Theory
 
