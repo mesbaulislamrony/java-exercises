@@ -31,14 +31,11 @@ This course serves as a comprehensive guide to learning Java programming. It con
 	- Widening Casting (automatically) - converting a smaller type to a larger type size byte -> short -> char -> int -> long -> float -> double
 	- Narrowing Casting (manually) - converting a larger type to a smaller size type double -> float -> long -> int -> char -> short -> byte
 - Operators: Arithmetic, Relational, Logical, Assignment, and Bitwise Operators.
-	- Arithmetic operators are `Addition (x + y)`,`Subtraction (x - y)`,`Multiplication (x * y)`, `Division (x / y)`, `Modulus (x % y)`, `Increment (++x)`, `Decrement (--x)`
-	- Assignment operators are `Equal to (x == y)`, `Not equal (x != y)`, `Greater than (x > y)`, `Less than (x < y)`, `Greater than or equal to (x >= y)`, `Less than or equal to (x <= y)`
-	- Logical operators are `Logical and (x < 5 &&  x < 10) returns true if both statements are true`, `Logical or (x < 5 || x < 4) returns true if one of the statements is true`, `Logical not !(x < 5 && x < 10) reverse the result, returns false if the result is true`
 - Input and Output: Using `Scanner` for user input and `System.out.println()` for output.
 - Comments: Single-line and Multi-line comments in Java.
 
 ### Practice
-- Create a program that accepts two numbers as input and displays the sum, difference, product, and division result.
+- Create a program that accepts two numbers as input and displays the sum of result.
 - Write a program to accept the user's name and age, and print a greeting message.
 
 ### Questions
@@ -64,8 +61,16 @@ This course serves as a comprehensive guide to learning Java programming. It con
 
 ### Theory
 - Declaring and Initializing Arrays (1D and 2D arrays).
+	- Declare an array
+	- Allocate the memory of an array
+	- Initialize array
+	- Access elements of an array
+	- Singledimensional array
+	- Multidimensional array
 - String class and its methods.
+	- Length of a String, Join Two Strings, Compare Two Strings, Strings are Immutable, Creating Strings Using the New Keyword, Methods of Java String
 - Differences between String, StringBuilder, and StringBuffer in Java.
+- Math class
 
 ### Practice
 - Create a program to declare an array of integers and print the elements.
@@ -80,6 +85,7 @@ This course serves as a comprehensive guide to learning Java programming. It con
 ### Theory
 - Declaring Methods and Passing Parameters.
 - Method Overloading: Multiple methods with the same name but different parameters.
+- Scope: In Java, variables are only accessible inside the region they are created. This is called scope.
 - Recursion: A method calling itself.
 
 ### Practice
@@ -94,6 +100,10 @@ This course serves as a comprehensive guide to learning Java programming. It con
 
 ### Theory
 - The concept of Classes and Objects.
+	- Attributes
+	- Methods & Method Overloading
+	- Modifiers
+	- Static Keyword
 - Constructors: Default and Parameterized constructors.
 - The `this` keyword in Java.
 
